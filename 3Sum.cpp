@@ -35,7 +35,7 @@ public:
 					left++;
 				else
 					right--;
-			}
+			} 
 
 		}
 		return result;
