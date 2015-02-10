@@ -21,7 +21,7 @@ public:
 				result.push_back(i + 1);
 				result.push_back(mapping[gap] + 1);//同上
 				break;
-			}
+			} 
 		}
 		return result;
 	}
