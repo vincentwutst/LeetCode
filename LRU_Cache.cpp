@@ -10,7 +10,7 @@ public:
 	LRUCache(int capacity) {
 		size = capacity;
 	}
-
+	
 	int get(int key) {
 		if (cacheMap.find(key) == cacheMap.end())
 			return -1;
